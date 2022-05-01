@@ -19,6 +19,7 @@ import Textstepper from './components/Textstepper';
 import Errorstep from './components/Errorstep';
 import Sizebutton from './components/Sizesbutton';
 import Complexbutton from './components/Complexbutton';
+import NestedModal from './components/Nestedmodal';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 
 function App() {
@@ -156,7 +157,13 @@ function App() {
           </Grid>
           <p className={"p-margin-m"}></p>
         </Grid>
-
+        <Grid item>
+          <h1 className={"title"}>NestedModal</h1>
+          <Grid className={"left-margin-m"}>
+            <NestedModal />
+          </Grid>
+          <p className={"p-margin-m"}></p>
+        </Grid>
         <Grid item>
           <h1 className={"title"}>Icon</h1>
           <Grid className={"left-margin-m"}>
