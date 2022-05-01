@@ -20,6 +20,7 @@ import Errorstep from './components/Errorstep';
 import Sizebutton from './components/Sizesbutton';
 import Complexbutton from './components/Complexbutton';
 import NestedModal from './components/Nestedmodal';
+import Wovenimagelist from './components/Wovenimagelist';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 
 function App() {
@@ -29,6 +30,13 @@ function App() {
         <Header />
       </Grid>
       <Grid className={"weigth"}>
+        <Grid item>
+            <h1 className={"title"}>Woven image list</h1>
+            <Grid className={"left-margin-m"}>        
+              <Wovenimagelist  />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+        </Grid>
         <Grid item>
             <h1 className={"title"}>BodyCard</h1>
             <Grid className={"left-margin-m"}>        
