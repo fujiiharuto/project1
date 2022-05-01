@@ -21,6 +21,7 @@ import Sizebutton from './components/Sizesbutton';
 import Complexbutton from './components/Complexbutton';
 import NestedModal from './components/Nestedmodal';
 import Wovenimagelist from './components/Wovenimagelist';
+import Positionedpopper from './components/Positionedpopper';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 
 function App() {
@@ -30,6 +31,13 @@ function App() {
         <Header />
       </Grid>
       <Grid className={"weigth"}>
+        <Grid item>
+            <h1 className={"title"}>Positioned popper</h1>
+            <Grid className={"left-margin-m"}>        
+              <Positionedpopper  />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+        </Grid>
         <Grid item>
             <h1 className={"title"}>Woven image list</h1>
             <Grid className={"left-margin-m"}>        
