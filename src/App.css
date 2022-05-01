@@ -1,0 +1,46 @@
+.title {
+    color: #0a786c;
+    padding-top: 1%;
+    
+}
+
+
+.p-margin-s {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.p-margin-m {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.p-margin-l {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.left-margin-s {
+    margin-left: 2rem;
+}
+
+.left-margin-m {
+    margin-left: 4rem;
+}
+
+.left-margin-l {
+    margin-left: 6rem;
+}
+
+.weigth{
+
+    width: 80%;
+    margin:0 auto;
+    
+}
+
+.back {
+    background-color: #f2f2f2;
+
+}
+
