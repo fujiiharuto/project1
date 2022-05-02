@@ -7,26 +7,26 @@ const columns = [
     field: 'id', 
     headerName: 'ID', 
     headerClassName: 'super-app-theme--header',
-    width: 70 
+    width: 160
   },
   { 
     field: 'firstName', 
     headerName: 'First name', 
     headerClassName: 'super-app-theme--header',
-    width: 130 
+    width: 200 
   },
   { 
     field: 'lastName', 
     headerName: 'Last name', 
     headerClassName: 'super-app-theme--header',
-    width: 130 
+    width: 200 
   },
   {
     field: 'age',
     headerName: 'Age',
     headerClassName: 'super-app-theme--header',
     type: 'number',
-    width: 90,
+    width: 160,
   },
   {
     field: 'fullName',
@@ -34,7 +34,7 @@ const columns = [
     headerClassName: 'super-app-theme--header',
     description: 'This column has a value getter and is not sortable.',
     sortable: false,
-    width: 160,
+    width: 380,
     valueGetter: (params) =>
       `${params.row.firstName || ''} ${params.row.lastName || ''}`,
   },
