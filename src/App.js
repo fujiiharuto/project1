@@ -23,6 +23,7 @@ import NestedModal from './components/Nestedmodal';
 import Wovenimagelist from './components/Wovenimagelist';
 import Positionedpopper from './components/Positionedpopper';
 import Labelsandhelpertext from './components/Labelsandhelpertext';
+import Datatable from './components/Datatable';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 
 function App() {
@@ -32,6 +33,13 @@ function App() {
         <Header />
       </Grid>
       <Grid className={"weigth"}>
+        <Grid item>
+            <h1 className={"title"}>Data table</h1>
+            <Grid className={"left-margin-m"}>        
+              <Datatable  />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+        </Grid>
         <Grid item>
             <h1 className={"title"}>Labels and helpertext</h1>
             <Grid className={"left-margin-m"}>        
