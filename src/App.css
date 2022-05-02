@@ -21,7 +21,7 @@
 }
 
 .left-margin-s {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .left-margin-m {
@@ -44,3 +44,14 @@
 
 }
 
+.margin-s {
+    margin: 5%;
+}
+
+.margin-m{
+    margin: 7%;
+}
+
+.margin-l{
+    margin: 10%;
+}
