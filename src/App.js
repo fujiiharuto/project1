@@ -40,170 +40,170 @@ function App() {
           </Grid>
           <Grid item>
               <h1 className={"title"}>Basic Table</h1>
-              <Grid className={"left-margin-m"}>        
+              <Grid className={"left-margin-l"}>        
                 <Basictable />
               </Grid>
-              <p className={"p-margin-m"}></p>
+              <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
               <h1 className={"title"}>Labels and helpertext</h1>
-              <Grid className={"left-margin-m"}>        
+              <Grid className={"left-margin-l"}>        
                 <Labelsandhelpertext  />
               </Grid>
-              <p className={"p-margin-m"}></p>
+              <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
               <h1 className={"title"}>Positioned popper</h1>
-              <Grid className={"left-margin-m"}>        
+              <Grid className={"left-margin-l"}>        
                 <Positionedpopper  />
               </Grid>
-              <p className={"p-margin-m"}></p>
+              <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
               <h1 className={"title"}>Woven image list</h1>
-              <Grid className={"left-margin-m"}>        
+              <Grid className={"left-margin-l"}>        
                 <Wovenimagelist  />
               </Grid>
-              <p className={"p-margin-m"}></p>
+              <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
               <h1 className={"title"}>BodyCard</h1>
-              <Grid className={"left-margin-m"}>        
+              <Grid className={"left-margin-l"}>        
                 <BodyCard  />
               </Grid>
-              <p className={"p-margin-m"}></p>
+              <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Switch</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Switch />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Checkbox</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Checkbox />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Radiobutton</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Radiobutton />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
 
           <Grid item>
             <h1 className={"title"}>Divider</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Divider />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
            <h1 className={"title"}>Progress</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Progress />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Snackbar</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Snackbar />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Accordion</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Accordion />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Appbar</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Appbar />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Bottomnavigation</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Bottomnavigation />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Temporarydrawer</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Temporarydrawer />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
         
           <Grid item>
             <h1 className={"title"}>Menu</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Menu />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Maxheigth menu</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Maxheigthmenu />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Stepper</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Stepper />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Text stepper</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Textstepper />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Errorstep</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Errorstep />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Sizebutton</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Sizebutton />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Complexbutton</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <Complexbutton />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>NestedModal</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <NestedModal />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
           <Grid item>
             <h1 className={"title"}>Icon</h1>
-            <Grid className={"left-margin-m"}>
+            <Grid className={"left-margin-l"}>
               <HomeRoundedIcon />
               <HomeRoundedIcon />
               <HomeRoundedIcon />
@@ -211,7 +211,7 @@ function App() {
               <HomeRoundedIcon />
               <HomeRoundedIcon />
             </Grid>
-            <p className={"p-margin-m"}></p>
+            <p className={"p-margin-l"}></p>
           </Grid>
 
         
