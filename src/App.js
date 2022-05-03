@@ -35,6 +35,9 @@ function App() {
           <Header />
         </Grid>
         <Grid className={"weigth"}>
+          <Grid>
+            <p className={"p-margin-s"}></p>
+          </Grid>
           <Grid item>
               <h1 className={"title"}>Basic Table</h1>
               <Grid className={"left-margin-m"}>        
