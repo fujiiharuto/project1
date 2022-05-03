@@ -23,7 +23,10 @@ import NestedModal from './components/Nestedmodal';
 import Wovenimagelist from './components/Wovenimagelist';
 import Positionedpopper from './components/Positionedpopper';
 import Labelsandhelpertext from './components/Labelsandhelpertext';
-import Basictable from './components/Basictable';
+import Stickyheader from './components/Stickyheader';
+import Stickyheader2 from './components/Stickyheader2';
+import Label from './components/Label';
+import Containedbutton from './components/Containedbutton';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 
 
@@ -39,9 +42,25 @@ function App() {
             <p className={"p-margin-s"}></p>
           </Grid>
           <Grid item>
-              <h1 className={"title"}>Basic Table</h1>
+              <h1 className={"title"}>Checbox Label</h1>
               <Grid className={"left-margin-l"}>        
-                <Basictable />
+                <Label />
+              </Grid>
+              <p className={"p-margin-l"}></p>
+          </Grid>
+          <Grid item>
+              <h1 className={"title"}>Contained button</h1>
+              <Grid className={"left-margin-l"}>        
+                <Containedbutton />
+              </Grid>
+              <p className={"p-margin-l"}></p>
+          </Grid>
+          <Grid item>
+              <h1 className={"title"}>Sticky header</h1>
+              <Grid className={"left-margin-l"}>        
+                <Stickyheader />
+                <p className={"p-margin-ss"}></p>
+                <Stickyheader2 />
               </Grid>
               <p className={"p-margin-l"}></p>
           </Grid>
