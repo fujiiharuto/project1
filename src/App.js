@@ -23,195 +23,198 @@ import NestedModal from './components/Nestedmodal';
 import Wovenimagelist from './components/Wovenimagelist';
 import Positionedpopper from './components/Positionedpopper';
 import Labelsandhelpertext from './components/Labelsandhelpertext';
-import Datatable from './components/Datatable';
+import Basictable from './components/Basictable';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
+
 
 function App() {
   return (
-    <Grid className={"back"} >
-      <Grid item>
-        <Header />
-      </Grid>
-      <Grid className={"weigth"}>
+    <Grid >
+      <Grid className={"back"} >
         <Grid item>
-            <h1 className={"title"}>Data table</h1>
-            <Grid className={"left-margin-m"}>        
-              <Datatable  />
-            </Grid>
-            <p className={"p-margin-m"}></p>
+          <Header />
         </Grid>
-        <Grid item>
-            <h1 className={"title"}>Labels and helpertext</h1>
-            <Grid className={"left-margin-m"}>        
-              <Labelsandhelpertext  />
-            </Grid>
-            <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-            <h1 className={"title"}>Positioned popper</h1>
-            <Grid className={"left-margin-m"}>        
-              <Positionedpopper  />
-            </Grid>
-            <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-            <h1 className={"title"}>Woven image list</h1>
-            <Grid className={"left-margin-m"}>        
-              <Wovenimagelist  />
-            </Grid>
-            <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-            <h1 className={"title"}>BodyCard</h1>
-            <Grid className={"left-margin-m"}>        
-              <BodyCard  />
-            </Grid>
-            <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Switch</h1>
-          <Grid className={"left-margin-m"}>
-            <Switch />
+        <Grid className={"weigth"}>
+          <Grid item>
+              <h1 className={"title"}>Basic Table</h1>
+              <Grid className={"left-margin-m"}>        
+                <Basictable />
+              </Grid>
+              <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Checkbox</h1>
-          <Grid className={"left-margin-m"}>
-            <Checkbox />
+          <Grid item>
+              <h1 className={"title"}>Labels and helpertext</h1>
+              <Grid className={"left-margin-m"}>        
+                <Labelsandhelpertext  />
+              </Grid>
+              <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Radiobutton</h1>
-          <Grid className={"left-margin-m"}>
-            <Radiobutton />
+          <Grid item>
+              <h1 className={"title"}>Positioned popper</h1>
+              <Grid className={"left-margin-m"}>        
+                <Positionedpopper  />
+              </Grid>
+              <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
+          <Grid item>
+              <h1 className={"title"}>Woven image list</h1>
+              <Grid className={"left-margin-m"}>        
+                <Wovenimagelist  />
+              </Grid>
+              <p className={"p-margin-m"}></p>
+          </Grid>
+          <Grid item>
+              <h1 className={"title"}>BodyCard</h1>
+              <Grid className={"left-margin-m"}>        
+                <BodyCard  />
+              </Grid>
+              <p className={"p-margin-m"}></p>
+          </Grid>
+          <Grid item>
+            <h1 className={"title"}>Switch</h1>
+            <Grid className={"left-margin-m"}>
+              <Switch />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+          </Grid>
+          <Grid item>
+            <h1 className={"title"}>Checkbox</h1>
+            <Grid className={"left-margin-m"}>
+              <Checkbox />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+          </Grid>
+          <Grid item>
+            <h1 className={"title"}>Radiobutton</h1>
+            <Grid className={"left-margin-m"}>
+              <Radiobutton />
+            </Grid>
+            <p className={"p-margin-m"}></p>
+          </Grid>
 
-        <Grid item>
-          <h1 className={"title"}>Divider</h1>
-          <Grid className={"left-margin-m"}>
-            <Divider />
+          <Grid item>
+            <h1 className={"title"}>Divider</h1>
+            <Grid className={"left-margin-m"}>
+              <Divider />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Progress</h1>
-          <Grid className={"left-margin-m"}>
-            <Progress />
+          <Grid item>
+           <h1 className={"title"}>Progress</h1>
+            <Grid className={"left-margin-m"}>
+              <Progress />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Snackbar</h1>
-          <Grid className={"left-margin-m"}>
-            <Snackbar />
+          <Grid item>
+            <h1 className={"title"}>Snackbar</h1>
+            <Grid className={"left-margin-m"}>
+              <Snackbar />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Accordion</h1>
-          <Grid className={"left-margin-m"}>
-            <Accordion />
+          <Grid item>
+            <h1 className={"title"}>Accordion</h1>
+            <Grid className={"left-margin-m"}>
+              <Accordion />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Appbar</h1>
-          <Grid className={"left-margin-m"}>
-            <Appbar />
+          <Grid item>
+            <h1 className={"title"}>Appbar</h1>
+            <Grid className={"left-margin-m"}>
+              <Appbar />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Bottomnavigation</h1>
-          <Grid className={"left-margin-m"}>
-            <Bottomnavigation />
+          <Grid item>
+            <h1 className={"title"}>Bottomnavigation</h1>
+            <Grid className={"left-margin-m"}>
+              <Bottomnavigation />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Temporarydrawer</h1>
-          <Grid className={"left-margin-m"}>
-            <Temporarydrawer />
+          <Grid item>
+            <h1 className={"title"}>Temporarydrawer</h1>
+            <Grid className={"left-margin-m"}>
+              <Temporarydrawer />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
         
-        <Grid item>
-          <h1 className={"title"}>Menu</h1>
-          <Grid className={"left-margin-m"}>
-            <Menu />
+          <Grid item>
+            <h1 className={"title"}>Menu</h1>
+            <Grid className={"left-margin-m"}>
+              <Menu />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Maxheigth menu</h1>
-          <Grid className={"left-margin-m"}>
-            <Maxheigthmenu />
+          <Grid item>
+            <h1 className={"title"}>Maxheigth menu</h1>
+            <Grid className={"left-margin-m"}>
+              <Maxheigthmenu />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Stepper</h1>
-          <Grid className={"left-margin-m"}>
-            <Stepper />
+          <Grid item>
+            <h1 className={"title"}>Stepper</h1>
+            <Grid className={"left-margin-m"}>
+              <Stepper />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Text stepper</h1>
-          <Grid className={"left-margin-m"}>
-            <Textstepper />
+          <Grid item>
+            <h1 className={"title"}>Text stepper</h1>
+            <Grid className={"left-margin-m"}>
+              <Textstepper />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Errorstep</h1>
-          <Grid className={"left-margin-m"}>
-            <Errorstep />
+          <Grid item>
+            <h1 className={"title"}>Errorstep</h1>
+            <Grid className={"left-margin-m"}>
+              <Errorstep />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Sizebutton</h1>
-          <Grid className={"left-margin-m"}>
-            <Sizebutton />
+          <Grid item>
+            <h1 className={"title"}>Sizebutton</h1>
+            <Grid className={"left-margin-m"}>
+              <Sizebutton />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Complexbutton</h1>
-          <Grid className={"left-margin-m"}>
-            <Complexbutton />
+          <Grid item>
+            <h1 className={"title"}>Complexbutton</h1>
+            <Grid className={"left-margin-m"}>
+              <Complexbutton />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>NestedModal</h1>
-          <Grid className={"left-margin-m"}>
-            <NestedModal />
+          <Grid item>
+            <h1 className={"title"}>NestedModal</h1>
+            <Grid className={"left-margin-m"}>
+              <NestedModal />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
-        <Grid item>
-          <h1 className={"title"}>Icon</h1>
-          <Grid className={"left-margin-m"}>
-            <HomeRoundedIcon />
-            <HomeRoundedIcon />
-            <HomeRoundedIcon />
-            <HomeRoundedIcon />
-            <HomeRoundedIcon />
-            <HomeRoundedIcon />
+          <Grid item>
+            <h1 className={"title"}>Icon</h1>
+            <Grid className={"left-margin-m"}>
+              <HomeRoundedIcon />
+              <HomeRoundedIcon />
+              <HomeRoundedIcon />
+              <HomeRoundedIcon />
+              <HomeRoundedIcon />
+              <HomeRoundedIcon />
+            </Grid>
+            <p className={"p-margin-m"}></p>
           </Grid>
-          <p className={"p-margin-m"}></p>
-        </Grid>
 
         
+        </Grid>
       </Grid>
-    </Grid>
+    </Grid>  
   );
 }
 
