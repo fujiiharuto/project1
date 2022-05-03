@@ -12,7 +12,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   rectangle: {
     "&:hover": {
-      background: "#0a786c"
+      background: "#e4f6fc"
     },
   }
 });
