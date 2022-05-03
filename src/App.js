@@ -26,6 +26,7 @@ import Labelsandhelpertext from './components/Labelsandhelpertext';
 import Stickyheader from './components/Stickyheader';
 import Stickyheader2 from './components/Stickyheader2';
 import Stickyheader3 from './components/Stickyheader3';
+import Stickyheader4 from './components/Stickyheader4';
 import Label from './components/Label';
 import Containedbutton from './components/Containedbutton';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
@@ -64,6 +65,8 @@ function App() {
                 <Stickyheader2 />
                 <p className={"p-margin-ss"}></p>
                 <Stickyheader3 />
+                <p className={"p-margin-ss"}></p>
+                <Stickyheader4 />
               </Grid>
               <p className={"p-margin-l"}></p>
           </Grid>
