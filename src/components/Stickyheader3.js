@@ -7,15 +7,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  rectangle: {
-    "&:hover": {
-      background: "#0a786c"
-    },
-  }
-});
 
 const columns = [
   { id: 'name', label: 'Name', minWidth: 170 },
@@ -67,7 +58,6 @@ const rows = [
 ];
 
 export default function StickyHeadTable() {
-  const classes = useStyles();
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
@@ -81,8 +71,8 @@ export default function StickyHeadTable() {
   };
 
   return (
-    <Paper sx={{ width: '100%', overflow: 'hidden' }} >
-      <TableContainer sx={{ maxHeight: 440 }} className={classes.rectangle}>
+    <Paper sx={{ width: '100%', overflow: 'hidden' }}>
+      <TableContainer sx={{ maxHeight: 440 }} style={{ backgroundColor: "#0a786c" }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>
